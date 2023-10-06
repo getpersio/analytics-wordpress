@@ -52,7 +52,7 @@ class Segment_Consumer_LibCurl extends Segment_QueueConsumer
         if ($this->host) {
             $host = $this->host;
         } else {
-            $host = "api.segment.io";
+            $host = "api.persio.io";
         }
         $path = "/v1/import";
         $url = $protocol . $host . $path;

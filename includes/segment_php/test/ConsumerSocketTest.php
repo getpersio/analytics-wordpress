@@ -226,7 +226,7 @@ class ConsumerSocketTest extends TestCase
             'x',
             [
                 'consumer'      => 'socket',
-                'host'          => 'api.segment.ioooooo',
+                'host'          => 'api.persio.ioooooo',
                 'error_handler' => function ($errno, $errmsg) {
                     throw new RuntimeException($errmsg, $errno);
                 },

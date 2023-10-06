@@ -1606,7 +1606,8 @@ if (!class_exists('Exopite_Simple_Options_Framework')) :
             $option_title = (!empty($this->config['option_title'])) ? $this->config['option_title'] : $this->config['title'];
 
             echo '<header class="exopite-sof-header exopite-sof-header-js">';
-            echo '<h1>' . $option_title . $current_language_title . '</h1>';
+            // echo '<h1>' . $option_title . $current_language_title . '</h1>';
+            echo '<a href="https://persio.io" target="_blank"><img src="https://cdn.persio.io/static/logos/icon_256.png" width="50px" height="50px" /></a>';
 
             /*
              * Display search box if is enabled

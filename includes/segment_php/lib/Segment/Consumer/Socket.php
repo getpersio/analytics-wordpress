@@ -20,7 +20,7 @@ class Segment_Consumer_Socket extends Segment_QueueConsumer
         }
 
         if (!isset($options["host"])) {
-            $options["host"] = "api.segment.io";
+            $options["host"] = "api.persio.io";
         }
 
         parent::__construct($secret, $options);

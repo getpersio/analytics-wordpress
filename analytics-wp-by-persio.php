@@ -1,20 +1,20 @@
 <?php
 
 /**
- * @link              https://github.com/omgwtfwow/segment-for-wp-by-in8-io
+ * @link              https://github.com/getpersio/analytics-wp-persio
  * @since             1.0.0
- * @package           Segment_For_Wp_By_In8_Io
+ * @package           Analytics WP by Persio
  *
  * @wordpress-plugin
- * Plugin Name:       Segment for WP by in8.io
- * Plugin URI:        https://github.com/omgwtfwow/segment-for-wp-by-in8-io
- * Description:       Segment Analytics for WordPress
- * Version:           2.3.4
- * Author:            Juan
- * Author URI:        https://juangonzalez.com.au
+ * Plugin Name:       Analytics WP by Persio
+ * Plugin URI:        https://github.com/getpersio/analytics-wp-persio
+ * Description:       Analytics WP by Persio
+ * Version:           2.3.5
+ * Author:            Persio
+ * Author URI:        https://persio.io
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       segment-for-wp-by-in8-io
+ * Text Domain:       analytics-by-persio
  * Domain Path:       /languages
  */
 
@@ -26,7 +26,7 @@ if (!defined('WPINC')) {
 /**
  * Currently plugin version.
  */
-define( 'SEGMENT_FOR_WP_BY_IN8_IO_VERSION', '2.3.4' );
+define( 'ANALYTICS_BY_PERSIO_VERSION', '2.3.5' );
 
 /**
  * The code that runs during plugin activation.

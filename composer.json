@@ -1,23 +1,28 @@
 {
-	"name": "omgwtfwow/segment-for-wp-by-in8-io",
-	"description": "Segment Analytics for WordPress.",
-	"type": "wordpress-plugin",
-	"homepage": "https://github.com/omgwtfwow/segment-for-wp-by-in8-io",
-	"readme": "https://githubhttps://github.com/omgwtfwow/segment-for-wp-by-in8-io/blob/master/README.md",
-	"license": "GPL-2.0-or-later",
-	"authors": [
-		{
-			"name": "juanin8",
+  "name": "getpersio/analytics-wp-persio",
+  "description": "Analytics WP by Persio.",
+  "type": "wordpress-plugin",
+  "homepage": "https://github.com/getpersio/analytics-wp-persio",
+  "readme": "https://github.com/getpersio/analytics-wp-persio/blob/master/README.md",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Persio",
+      "homepage": "https://persio.io",
+      "role": "Developer"
+    },
+    {
+      "name": "juanin8",
       "homepage": "https://www.juangonzalez.com.au",
-			"role": "Developer"
-		},
-		{
-			"name": "Enrico Deleo",
-			"homepage": "https://enricodeleo.com",
-			"role": "Developer"
-		}
-	],
-	"require": {
-		"php": ">=7.0"
-	}
+      "role": "Developer"
+    },
+    {
+      "name": "Enrico Deleo",
+      "homepage": "https://enricodeleo.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  }
 }

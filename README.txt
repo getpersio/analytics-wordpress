@@ -1,11 +1,11 @@
-=== Segment For Wordpress ===
-Contributors: juanin8
-Donate link: https://www.juangonzalez.com.au
+=== Analytics for Segment ===
+Contributors: Persio
+Original Author: juanin8
 Tags: segment, tracking, analytics
 Requires at least: 5.6
 Tested up to: 6.2.2
 Requires PHP: 7.3.5
-Stable tag: 2.3.4
+Stable tag: 2.3.5
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,8 +13,8 @@ Segment Analytics for WordPress. Event tracking integrated into hundreds of 3rd 
 
 == Description ==
 
-Segment Analytics for WordPress. Free WooCommerce, Ninja Form & Gravity Form integrations.
-Uses Segment's official PHP libraries for Server Side events, as well as a lot of other features functionality.
+Persio Analytics for WordPress. Free WooCommerce, Ninja Form & Gravity Form integrations.
+Uses Persio's official PHP libraries for Server Side events, as well as a lot of other features functionality.
 I completely rewrote this plugin from the previous version.
 Client side and server side tracking.
 Client side events fire upon validation (ie, for submissions)
@@ -70,6 +70,9 @@ The new version of the plugin is much much better, but you will need to set it u
 3. Will it slow my site down? Depends. The more destinations and the more events you use, the slower things can go. The same way as if you installed the scripts directly.
 
 == Changelog ==
+
+= 2.3.5 =
+* Persio support
 
 = 2.3.4 =
 * Another fix for validation of Server Side tracking

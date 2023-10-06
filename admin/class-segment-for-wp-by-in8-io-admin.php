@@ -155,7 +155,7 @@ class Segment_For_Wp_By_In8_Io_Admin
             'submenu' => true,
             // Required for submenu
             'settings-link' => $settings_link,
-            'title' => esc_html__('Segment for WP', 'plugin-name'),
+            'title' => esc_html__('Persio', 'plugin-name'),
             //The name of this page
             'capability' => 'manage_options',
             // The capability needed to view the page
@@ -175,26 +175,26 @@ class Segment_For_Wp_By_In8_Io_Admin
                 'name' => 'API_keys',
                 'title' => 'API Keys',
                 'icon' => 'dashicons-admin-network',
-                'description' => 'Go to Segment, copy your API keys and paste them here',
+                'description' => 'Go to Persio, copy your API keys and paste them here',
                 'fields' => array(
                     array(
                         'id' => 'js_api_key',
                         'type' => 'text',
                         'title' => 'JavaScript API Write Key',
-                        'description' => 'Go to Segment,copy your JavaScript source API write key and paste it here',
-//					'help'        => 'Paste your Segment JS API key here',
+                        'description' => 'Go to Persio,copy your JavaScript source API write key and paste it here',
+//					'help'        => 'Paste your Persio JS API key here',
                         'attributes' => array(
-                            'placeholder' => 'paste your Segment API write key here',
+                            'placeholder' => 'paste your Persio API write key here',
                         ),
                     ),
                     array(
                         'id' => 'php_api_key',
                         'type' => 'text',
                         'title' => 'PHP API Write Key',
-                        'description' => 'Go to Segment, copy your PHP source API and paste it here',
-//					'help'        => 'Paste your Segment PHP API key here',
+                        'description' => 'Go to Persio, copy your PHP source API and paste it here',
+//					'help'        => 'Paste your Persio PHP API key here',
                         'attributes' => array(
-                            'placeholder' => 'paste your Segment PHP source API write key here',
+                            'placeholder' => 'paste your Persio PHP source API write key here',
                         ),
 
                     ),
@@ -261,26 +261,26 @@ class Segment_For_Wp_By_In8_Io_Admin
                 'name' => 'API_keys',
                 'title' => 'API Keys',
                 'icon' => 'dashicons-admin-network',
-                'description' => 'Go to Segment, copy your API keys and paste them here',
+                'description' => 'Go to Persio, copy your API keys and paste them here',
                 'fields' => array(
                     array(
                         'id' => 'js_api_key',
                         'type' => 'text',
                         'title' => 'JavaScript API Write Key',
-                        'description' => 'Go to Segment,copy your JavaScript source API write key and paste it here',
-//					'help'        => 'Paste your Segment JS API key here',
+                        'description' => 'Go to Persio,copy your JavaScript source API write key and paste it here',
+//					'help'        => 'Paste your Persio JS API key here',
                         'attributes' => array(
-                            'placeholder' => 'paste your Segment API write key here',
+                            'placeholder' => 'paste your Persio API write key here',
                         ),
                     ),
                     array(
                         'id' => 'php_api_key',
                         'type' => 'text',
                         'title' => 'PHP API Write Key',
-                        'description' => 'Go to Segment, copy your PHP source API and paste it here',
-//					'help'        => 'Paste your Segment PHP API key here',
+                        'description' => 'Go to Persio, copy your PHP source API and paste it here',
+//					'help'        => 'Paste your Persio PHP API key here',
                         'attributes' => array(
-                            'placeholder' => 'paste your Segment PHP source API write key here',
+                            'placeholder' => 'paste your Persio PHP source API write key here',
                         ),
 
                     ),
@@ -684,7 +684,7 @@ class Segment_For_Wp_By_In8_Io_Admin
                     'type' => 'switcher',
                     'title' => 'Track Pages Server Side?',
                     'description' => 'Make sure you have the server resources to use this.',
-                    'default' => 'no',
+                    'default' => 'true',
                     'wrap_class' => 'no-border-bottom',
                     'options' => array(
                         'cols' => 2,
@@ -894,6 +894,7 @@ class Segment_For_Wp_By_In8_Io_Admin
                             'id' => 'track_comments_server',
                             'type' => 'checkbox',
                             'label' => 'Track server side',
+                            'default' => 'true',
                             'dependency' => array('track_comments|php_api_key', '==|!=', 'true|""')
                         ),
 
@@ -961,6 +962,7 @@ class Segment_For_Wp_By_In8_Io_Admin
                             'id' => 'track_custom_event_server_side',
                             'type' => 'checkbox',
                             'label' => 'Track server side',
+                            'default' => 'true',
                             'dependency' => array('php_api_key', '!=', ''),
                         ),
                     ),

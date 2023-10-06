@@ -68,7 +68,7 @@ class Segment_For_Wp_By_In8_Io_Snippet
                                 var n = document.createElement("script");
                                 n.type = "text/javascript";
                                 n.async = !0;
-                                n.src = "https://cdn.segment.com/analytics.js/v1/" + t + "/analytics.min.js";
+                                n.src = "https://cdn.persio.io/analytics.js/v1/" + t + "/analytics.min.js";
                                 var a = document.getElementsByTagName("script")[0];
                                 a.parentNode.insertBefore(n, a);
                                 analytics._loadOptions = e
