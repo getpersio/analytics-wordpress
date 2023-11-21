@@ -194,7 +194,10 @@ class Segment_For_Wp_By_In8_Io
     public static function get_settings()
     {
         $settings = get_exopite_sof_option('segment-for-wp-by-in8-io');
-        if ($settings["nonce_string"] == '') {
+        if (is_array($settings) && isset($settings["nonce_string"]) && $settings["nonce_string"] == '') {
+            $settings["nonce_string"] = Segment_For_Wp_By_In8_Io_Admin::get_random_number();
+        } elseif (!is_array($settings)) {
+            $settings = array();
             $settings["nonce_string"] = Segment_For_Wp_By_In8_Io_Admin::get_random_number();
         }
 
@@ -928,7 +931,7 @@ class Segment_For_Wp_By_In8_Io
             }
         }
 
-        
+
         return $current_post->post_title??"";
     }
 
